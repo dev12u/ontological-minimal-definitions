@@ -1,0 +1,202 @@
+{
+  "$schema_comment": "Synthetic HVAC catalog samples for @os20/hvac-ontology. Illustrative only — not certified OEM data.",
+  "ontology_package": "@os20/hvac-ontology",
+  "ontology_version": "0.1.0",
+  "format": "os20.product-data-catalog/v1",
+  "records": [
+    {
+      "id": "sample.scroll_compressor.001",
+      "name": "Sample Scroll Compressor",
+      "category": "Compressor",
+      "sysml_type": "@os20/hvac-ontology#HVAC::Compressor",
+      "synthetic": true,
+      "description": "Illustrative scroll compressor sample for ontology demos.",
+      "properties": [
+        {
+          "name": "Cooling capacity",
+          "semantic_id": "hvac.cooling_capacity",
+          "sysml_attribute": "coolingCapacity",
+          "value_type": "number",
+          "value_number": 3500,
+          "unit": "Watt",
+          "unit_display": "W (3.5 kW)"
+        },
+        {
+          "name": "Suction diameter",
+          "semantic_id": "geometry.inner_diameter",
+          "sysml_attribute": "suctionDiameter",
+          "value_type": "number",
+          "value_number": 12.7,
+          "unit": "Millimeter",
+          "unit_display": "mm"
+        },
+        {
+          "name": "Discharge diameter",
+          "semantic_id": "geometry.inner_diameter",
+          "sysml_attribute": "dischargeDiameter",
+          "value_type": "number",
+          "value_number": 9.5,
+          "unit": "Millimeter",
+          "unit_display": "mm"
+        },
+        {
+          "name": "Rated power",
+          "semantic_id": "other.power",
+          "sysml_attribute": "ratedPower",
+          "value_type": "number",
+          "value_number": 1100,
+          "unit": "Watt",
+          "unit_display": "W (1.1 kW)"
+        }
+      ]
+    },
+    {
+      "id": "sample.air_cooled_condenser.001",
+      "name": "Sample Air-Cooled Condenser",
+      "category": "Condenser",
+      "sysml_type": "@os20/hvac-ontology#HVAC::Condenser",
+      "synthetic": true,
+      "description": "Illustrative air-cooled condenser sample for ontology demos.",
+      "properties": [
+        {
+          "name": "Heat rejection capacity",
+          "semantic_id": "hvac.heat_rejection_capacity",
+          "sysml_attribute": "heatRejectionCapacity",
+          "value_type": "number",
+          "value_number": 4200,
+          "unit": "Watt",
+          "unit_display": "W (4.2 kW)"
+        },
+        {
+          "name": "Inlet diameter",
+          "semantic_id": "geometry.inner_diameter",
+          "sysml_attribute": "inletDiameter",
+          "value_type": "number",
+          "value_number": 9.5,
+          "unit": "Millimeter",
+          "unit_display": "mm"
+        },
+        {
+          "name": "Outlet diameter",
+          "semantic_id": "geometry.inner_diameter",
+          "sysml_attribute": "outletDiameter",
+          "value_type": "number",
+          "value_number": 9.5,
+          "unit": "Millimeter",
+          "unit_display": "mm"
+        }
+      ]
+    },
+    {
+      "id": "sample.evaporator_coil.001",
+      "name": "Sample Evaporator Coil",
+      "category": "Evaporator",
+      "sysml_type": "@os20/hvac-ontology#HVAC::Evaporator",
+      "synthetic": true,
+      "description": "Illustrative evaporator coil sample for ontology demos.",
+      "properties": [
+        {
+          "name": "Cooling capacity",
+          "semantic_id": "hvac.cooling_capacity",
+          "sysml_attribute": "coolingCapacity",
+          "value_type": "number",
+          "value_number": 3500,
+          "unit": "Watt",
+          "unit_display": "W (3.5 kW)"
+        },
+        {
+          "name": "Inlet diameter",
+          "semantic_id": "geometry.inner_diameter",
+          "sysml_attribute": "inletDiameter",
+          "value_type": "number",
+          "value_number": 9.5,
+          "unit": "Millimeter",
+          "unit_display": "mm"
+        },
+        {
+          "name": "Outlet diameter",
+          "semantic_id": "geometry.inner_diameter",
+          "sysml_attribute": "outletDiameter",
+          "value_type": "number",
+          "value_number": 12.7,
+          "unit": "Millimeter",
+          "unit_display": "mm"
+        }
+      ]
+    },
+    {
+      "id": "sample.expansion_valve.001",
+      "name": "Sample Expansion Valve",
+      "category": "ExpansionValve",
+      "sysml_type": "@os20/hvac-ontology#HVAC::ExpansionValve",
+      "synthetic": true,
+      "description": "Illustrative expansion valve sample for ontology demos.",
+      "properties": [
+        {
+          "name": "Rated capacity",
+          "semantic_id": "hvac.rated_capacity",
+          "sysml_attribute": "ratedCapacity",
+          "value_type": "number",
+          "value_number": 3500,
+          "unit": "Watt",
+          "unit_display": "W (3.5 kW)"
+        },
+        {
+          "name": "Inlet diameter",
+          "semantic_id": "geometry.inner_diameter",
+          "sysml_attribute": "inletDiameter",
+          "value_type": "number",
+          "value_number": 6.0,
+          "unit": "Millimeter",
+          "unit_display": "mm"
+        },
+        {
+          "name": "Outlet diameter",
+          "semantic_id": "geometry.inner_diameter",
+          "sysml_attribute": "outletDiameter",
+          "value_type": "number",
+          "value_number": 9.5,
+          "unit": "Millimeter",
+          "unit_display": "mm"
+        }
+      ]
+    },
+    {
+      "id": "sample.axial_fan.001",
+      "name": "Sample Axial Fan",
+      "category": "Fan",
+      "sysml_type": "@os20/hvac-ontology#HVAC::Fan",
+      "synthetic": true,
+      "description": "Illustrative axial fan sample for ontology demos.",
+      "properties": [
+        {
+          "name": "Airflow rate",
+          "semantic_id": "other.flow_rate",
+          "sysml_attribute": "airflowRate",
+          "value_type": "number",
+          "value_number": 0.35,
+          "unit": "Dimensionless",
+          "unit_display": "m³/s (stored numeric; volumetric unit pending catalog)"
+        },
+        {
+          "name": "Power",
+          "semantic_id": "other.power",
+          "sysml_attribute": "power",
+          "value_type": "number",
+          "value_number": 85,
+          "unit": "Watt",
+          "unit_display": "W"
+        },
+        {
+          "name": "Outlet diameter",
+          "semantic_id": "geometry.diameter",
+          "sysml_attribute": "outletDiameter",
+          "value_type": "number",
+          "value_number": 300,
+          "unit": "Millimeter",
+          "unit_display": "mm"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+[package]
+name = "@os20/hvac-ontology"
+version = "0.1.0"
+edition = "2026"
+role = "ontology"
+description = "Minimal HVAC refrigeration ontology: Compressor, Condenser, Evaporator, ExpansionValve, Fan."
+
+# Consuming packages import SysML from this package (no registry publish required for local use).
