@@ -24,7 +24,9 @@
         {
           "name": "Suction diameter",
           "semantic_id": "geometry.inner_diameter",
+          "semantic_property_id": "os20:property:mechanical.diameter",
           "sysml_attribute": "suctionDiameter",
+          "sysml_feature": "HVAC::Compressor::suctionDiameter",
           "value_type": "number",
           "value_number": 12.7,
           "unit": "Millimeter",
@@ -33,7 +35,9 @@
         {
           "name": "Discharge diameter",
           "semantic_id": "geometry.inner_diameter",
+          "semantic_property_id": "os20:property:mechanical.diameter",
           "sysml_attribute": "dischargeDiameter",
+          "sysml_feature": "HVAC::Compressor::dischargeDiameter",
           "value_type": "number",
           "value_number": 9.5,
           "unit": "Millimeter",

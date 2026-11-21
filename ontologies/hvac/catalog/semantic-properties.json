@@ -1,0 +1,49 @@
+{
+  "format": "os20.semantic-properties/v1",
+  "properties": [
+    {
+      "id": "os20:property:equipment.dryMass",
+      "name": "Mass",
+      "description": "Equipment dry mass",
+      "quantityKind": "mass",
+      "canonicalUnit": "Kilogram",
+      "categories": ["equipment"],
+      "sourcePackage": "@os20/hvac-ontology",
+      "sourceVersion": "0.1.0",
+      "legacySemanticIds": ["physical.mass"]
+    },
+    {
+      "id": "os20:property:mechanical.diameter",
+      "name": "Diameter",
+      "description": "Mechanical circular cross-section diameter",
+      "quantityKind": "length",
+      "canonicalUnit": "Metre",
+      "categories": ["mechanical"],
+      "sourcePackage": "@os20/hvac-ontology",
+      "sourceVersion": "0.1.0",
+      "legacySemanticIds": ["geometry.diameter", "geometry.inner_diameter"]
+    },
+    {
+      "id": "os20:property:fluid.pressure",
+      "name": "Pressure",
+      "description": "Fluid pressure",
+      "quantityKind": "pressure",
+      "canonicalUnit": "Pascal",
+      "categories": ["fluid"],
+      "sourcePackage": "@os20/hvac-ontology",
+      "sourceVersion": "0.1.0",
+      "legacySemanticIds": ["physical.pressure"]
+    },
+    {
+      "id": "os20:property:thermal.temperature",
+      "name": "Temperature",
+      "description": "Thermodynamic temperature",
+      "quantityKind": "temperature",
+      "canonicalUnit": "Kelvin",
+      "categories": ["thermal"],
+      "sourcePackage": "@os20/hvac-ontology",
+      "sourceVersion": "0.1.0",
+      "legacySemanticIds": ["physical.temperature"]
+    }
+  ]
+}

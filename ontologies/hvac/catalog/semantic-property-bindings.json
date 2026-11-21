@@ -1,0 +1,25 @@
+{
+  "format": "os20.semantic-property-bindings/v1",
+  "bindings": [
+    {
+      "sysmlFeature": "HVAC::Compressor::suctionDiameter",
+      "semanticId": "os20:property:mechanical.diameter"
+    },
+    {
+      "sysmlFeature": "HVAC::Compressor::dischargeDiameter",
+      "semanticId": "os20:property:mechanical.diameter"
+    },
+    {
+      "sysmlFeature": "@os20/hvac-ontology#HVAC::Compressor.suctionDiameter",
+      "semanticId": "os20:property:mechanical.diameter"
+    },
+    {
+      "sysmlFeature": "@os20/hvac-ontology#HVAC::Compressor.dischargeDiameter",
+      "semanticId": "os20:property:mechanical.diameter"
+    },
+    {
+      "sysmlFeature": "HVAC::Fan::bladeDiameter",
+      "semanticId": "os20:property:mechanical.diameter"
+    }
+  ]
+}
